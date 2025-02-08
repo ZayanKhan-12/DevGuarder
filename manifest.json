@@ -1,0 +1,10 @@
+{
+  "name": "DevGuard",
+  "description": "A real-time, AI-powered browser extension or CLI tool that warns developers before they copy-paste or install suspicious code, APIs, or libraries.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "devguard_icon.png"
+  }
+}

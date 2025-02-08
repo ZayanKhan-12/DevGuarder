@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Guardian - DevGuard</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Silent Guardian</h1>
+        <p class="tagline">Reverse Phishing Detector for Devs</p>
+
+        <div class="trust-score">
+            <h2>API/Package Trust Score</h2>
+            <p id="trustScore">Loading...</p>
+        </div>
+
+        <div class="alerts">
+            <h2>⚠️ Security Alerts</h2>
+            <ul id="alertList">
+                <li>No threats detected ✅</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <h2>🛠️ Features</h2>
+            <ul>
+                <li>🔍 Detects malicious APIs & libraries</li>
+                <li>🕵️‍♂️ Scans copied code snippets</li>
+                <li>⚠️ Blocks typosquatting attacks</li>
+                <li>🛡️ Works locally, no data sent</li>
+            </ul>
+        </div>
+
+        <button id="scanButton">🔄 Rescan</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
